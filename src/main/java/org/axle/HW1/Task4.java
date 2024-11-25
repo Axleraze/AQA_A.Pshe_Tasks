@@ -36,5 +36,11 @@ public class Task4 {
         return false;
     }
 
-}
 
+ //
+ boolean is5AtTheEndOtheMethod(double num){
+     Double objNum = num;
+     String strNum = objNum.toString(); // convert number to string
+     return strNum.endsWith("5");
+    }
+}

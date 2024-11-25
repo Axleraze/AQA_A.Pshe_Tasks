@@ -18,10 +18,12 @@ public class MainClass {
         boolean resultTask3 = t3.isIsSquareOf(2.1, 4.42);
 //        System.out.println(resultTask3);
 
-        // Task 4
+        // TaskUpda 4
         Task4 t4 = new Task4();
         boolean resultTask4 = t4.is5AtTheEnd(6.358);
-//        System.out.println(resultTask4);
+        boolean ressultMethod2 = t4.is5AtTheEndOtheMethod(6.3505);
+        System.out.println(resultTask4);
+        System.out.println(ressultMethod2);
 
         // Task 5
         Task5 t5 = new Task5();
@@ -81,7 +83,7 @@ public class MainClass {
     // Task 16
         Task16 t16 = new Task16();
         boolean resultTask16 =  t16.isDevide1To2(8, 3);
-        System.out.println(resultTask16);
+//        System.out.println(resultTask16);
 
     }
 }
